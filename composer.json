@@ -1,0 +1,19 @@
+{
+    "name": "wsn/content-hub",
+    "description": "Show multiple posts teaser in a grid.",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "CHPS_Includes\\": "inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Schönherr",
+            "email": "daniel@100wunder.de"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

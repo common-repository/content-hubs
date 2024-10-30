@@ -1,0 +1,33 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-content-hub-block {
+	background-image: url(../../../assets/images/bg_black.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-color: rgb(29, 35, 39);
+	color: white;
+	background-size: cover;
+	padding: 20px;
+
+	.chps_logo {
+		background-image: url(../../../assets/images/chps_logo.png);
+		background-repeat: no-repeat;
+		background-position: top left;
+		background-size: contain;
+		width: 300px;
+		height: 107px;
+	}
+
+	.components-input-control__container {
+		width: 300px;
+	}
+
+	select.components-select-control__input {
+		height: auto !important;
+		width: 300px;
+	}
+}

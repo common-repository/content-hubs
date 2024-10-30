@@ -1,0 +1,18 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-content-hub-block {
+  background-image: url(../../../assets/images/bg_black.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #1d2327;
+  background-size: cover;
+  padding: 20px;
+}
+
+.wp-block-create-block-content-hub-block select.components-select-control__input {
+  height: auto !important;
+}
+/*# sourceMappingURL=editor.css.map */

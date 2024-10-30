@@ -1,0 +1,182 @@
+.chps-grid {
+  padding: 30px;
+  max-width: 100% !important;
+}
+
+.chps-grid .chps-filterbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.chps-grid .chps-filterbar .chps-filter-label {
+  margin-right: 12px;
+}
+
+.chps-grid .chps-filterbar .chps-filter-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.chps-grid .chps-filterbar .chps-filter-items .chps-filter-item {
+  cursor: pointer;
+  border: 1px solid;
+  padding: 1px 5px;
+  border-radius: 3px;
+  outline: none;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.chps-grid .chps-filterbar .chps-filter-items .chps-filter-item:hover {
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.chps-grid .chps-grid-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(470px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(470px, 1fr));
+  padding-bottom: 12px;
+}
+
+@media (max-width: 767px) {
+  .chps-grid .chps-grid-items {
+    -ms-grid-columns: (minmax(100%, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+  }
+}
+
+.chps-grid .chps-grid-items .chps-grid-item {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.chps-grid .chps-grid-items .chps-grid-item > div {
+  padding-top: 66%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.chps-grid .chps-grid-items .chps-grid-item > div > a {
+  text-decoration: none;
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: background 0.3s ease-out;
+  transition: background 0.3s ease-out;
+}
+
+.chps-grid .chps-grid-items .chps-grid-item > div > a .chps-inner-content {
+  position: absolute;
+  overflow: hidden;
+  top: 25px;
+  right: 33%;
+  bottom: 25px;
+  left: 25px;
+}
+
+.chps-grid .chps-grid-items .chps-grid-item > div > a .chps-inner-content .chps-text {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.chps-grid .chps-grid-items .chps-grid-item > div > a .chps-inner-content .chps-text .chps-topics {
+  font-size: 16px;
+  padding: 10px 10px 0;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+.chps-grid .chps-grid-items .chps-grid-item > div > a .chps-inner-content .chps-text .chps-headline {
+  padding: 2px 10px 6px;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 1.16;
+}
+
+.chps-grid .chps-grid-items .chps-grid-item > div > a .chps-inner-content .chps-text .chps-short_description {
+  position: absolute;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  height: 0;
+}
+
+@media (max-width: 767px) {
+  .chps-grid .chps-grid-items .chps-grid-item > div > a .chps-inner-content .chps-text .chps-short_description {
+    display: none;
+  }
+}
+
+.chps-grid .chps-grid-items .chps-grid-item > div > a:hover .chps-inner-content .chps-text {
+  -webkit-transform: translateY(0) !important;
+          transform: translateY(0) !important;
+}
+
+.chps-grid .chps-grid-items .chps-grid-item.chps-load-more-item {
+  display: none;
+}
+
+.chps-grid .chps-grid-items .chps-grid-item.chps-hidden {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.chps-grid .chps-branding {
+  text-align: center;
+}
+
+.chps-grid .chps-branding a {
+  color: red;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.chps-grid .chps-load-more-btn {
+  margin: 30px auto 13px;
+  background: none;
+  border: 1px solid;
+  padding: 5px 25px;
+  border-radius: 3px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.chps-grid .chps-load-more-btn:hover {
+  -webkit-box-shadow: 0 0 3px;
+          box-shadow: 0 0 3px;
+}
+
+.chps-alert {
+  padding: 2rem;
+  border: 2px solid;
+  margin: 1rem 0;
+}
+/*# sourceMappingURL=frontend-style.css.map */

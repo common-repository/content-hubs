@@ -1,0 +1,206 @@
+.wp-admin #chps_customfields .section {
+  margin-bottom: 1rem;
+}
+
+.wp-admin #chps_customfields .section label {
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.wp-admin #chps_customfields #chps_image_preview #clear_image {
+  display: none;
+}
+
+.wp-admin #chps_customfields #chps_image_preview.has-image {
+  padding-top: 66%;
+  position: relative;
+  overflow: hidden;
+}
+
+.wp-admin #chps_customfields #chps_image_preview.has-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+
+.wp-admin #chps_customfields #chps_image_preview.has-image #clear_image {
+  position: absolute;
+  background: #333;
+  color: #fff;
+  border: 1px solid;
+  display: block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
+  border-radius: 100%;
+  z-index: 999;
+  text-align: center;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.wp-admin #chps_customfields #chps_image_preview.has-image #clear_image:hover {
+  background: black;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .intro, .wp-admin.post-type-chps-content-hub.post-php .intro {
+  background-image: url(images/bg_black.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #1d2327;
+  background-size: cover;
+  padding: 30px 26px;
+  margin: -6px -12px 0 -12px;
+  color: white;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .intro img, .wp-admin.post-type-chps-content-hub.post-php .intro img {
+  width: 390px;
+  max-width: 100%;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .intro h2, .wp-admin.post-type-chps-content-hub.post-php .intro h2 {
+  color: #fff;
+  font-size: 24px !important;
+  padding: 0 !important;
+  margin-top: 30px !important;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .shortcode, .wp-admin.post-type-chps-content-hub.post-php .shortcode {
+  margin: 50px 15px;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings {
+  width: 100%;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings .shortcode, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings .shortcode {
+  padding: 20px 10px;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings .nav-tab-wrapper .nav-tab, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings .nav-tab-wrapper .nav-tab {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings .tab-content .tab-pane, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings .tab-content .tab-pane {
+  display: none;
+  padding: 1rem;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings .tab-content .tab-pane.active, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings .tab-content .tab-pane.active {
+  display: block;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings .form-table td, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings .form-table td {
+  vertical-align: top;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings #chps_image_preview #clear_image, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings #chps_image_preview #clear_image {
+  display: none;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings #chps_image_preview.has-image, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings #chps_image_preview.has-image {
+  padding-top: 66%;
+  position: relative;
+  overflow: hidden;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings #chps_image_preview.has-image img, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings #chps_image_preview.has-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top center;
+     object-position: top center;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings #chps_image_preview.has-image #clear_image, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings #chps_image_preview.has-image #clear_image {
+  position: absolute;
+  background: #333;
+  color: #fff;
+  border: 1px solid;
+  display: block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 15px;
+  border-radius: 100%;
+  z-index: 999;
+  text-align: center;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings #chps_image_preview.has-image #clear_image:hover, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings #chps_image_preview.has-image #clear_image:hover {
+  background: black;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings .sublabel_color, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings .sublabel_color {
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 30px;
+  top: 5px;
+  position: relative;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings .hint, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings .hint {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-style: italic;
+  opacity: 0.6;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings .pro-badge, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings .pro-badge {
+  display: inline-block;
+  background: #135e96;
+  border-radius: 3px;
+  color: white;
+  text-transform: uppercase;
+  padding: 1px 5px;
+  margin: 5px 5px 5px 0;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-settings .chps-gopro-tr td, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-settings .chps-gopro-tr td {
+  opacity: 0.65;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-upgrade-info > div, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-upgrade-info > div {
+  padding: 40px 60px;
+  width: 300px;
+  margin: 90px 30px auto 90px;
+  background-image: url(images/bg_black.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #1d2327;
+  background-size: cover;
+  color: white;
+}
+
+.wp-admin.post-type-chps-content-hub.post-new-php .chps-wrap-settings .chps-upgrade-info > div ul, .wp-admin.post-type-chps-content-hub.post-php .chps-wrap-settings .chps-upgrade-info > div ul {
+  list-style-type: inherit;
+  padding: 0 0 0 15px;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=admin-style.css.map */
